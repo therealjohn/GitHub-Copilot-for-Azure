@@ -228,10 +228,10 @@ Transform harvested traces into JSONL dataset format. Each line in the JSONL fil
 | Field | Required | Source |
 |-------|----------|--------|
 | `query` | ✅ | User input — extract from `gen_ai.input.messages` on `invoke_agent` dependency spans |
-| `response` | Optional | Agent output — extract from `gen_ai.output.messages` on `invoke_agent` dependency spans |
-| `context` | Optional | Tool results or retrieved documents from the trace |
-| `ground_truth` | Optional | Expected correct answer (add during curation) |
-| `metadata` | Optional | Source info: `{"source": "trace", "conversationId": "...", "harvestRule": "error"}` |
+| `response` |  | Agent output — extract from `gen_ai.output.messages` on `invoke_agent` dependency spans |
+| `context` |  | Tool results or retrieved documents from the trace |
+| `ground_truth` |  | Expected correct answer (add during curation) |
+| `metadata` |  | Source info: `{"source": "trace", "conversationId": "...", "harvestRule": "error"}` |
 
 ### Extracting Input/Output from Traces
 

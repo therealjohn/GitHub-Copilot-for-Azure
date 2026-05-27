@@ -23,8 +23,8 @@ Generate a seed evaluation dataset for a Foundry agent by producing realistic, d
 |-------|----------|---------|
 | `query` | ✅ | Realistic user message the agent would receive |
 | `expected_behavior` | ✅ | Behavioral rubric: what the agent SHOULD do — actions, tool usage, tone, source expectations. Used by Phase 2 custom evaluators for per-query scoring. |
-| `ground_truth` | Optional | Factual reference answer for groundedness evaluators |
-| `context` | Optional | Category or scenario tag for dataset organization and coverage analysis |
+| `ground_truth` |  | Factual reference answer for groundedness evaluators |
+| `context` |  | Category or scenario tag for dataset organization and coverage analysis |
 
 Example row:
 
